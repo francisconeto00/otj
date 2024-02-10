@@ -10,6 +10,6 @@ Your preferred Node.js package manager:
 https://docs.strapi.io/dev-docs/quick-start
 
 ## To run the Strapi:
-> **npm** run develop
+- **npm** run develop
 -or-
-> **yarn** develop
+- **yarn** develop
