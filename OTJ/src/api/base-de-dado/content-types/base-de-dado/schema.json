@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "base_de_dados",
+  "info": {
+    "singularName": "base-de-dado",
+    "pluralName": "base-de-dados",
+    "displayName": "BASE DE DADOS",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NOME": {
+      "type": "string"
+    },
+    "LOCALIDADE": {
+      "type": "string"
+    },
+    "IDADE": {
+      "type": "integer"
+    },
+    "CAT_PROFISSIONAL": {
+      "type": "string"
+    },
+    "NOTAS": {
+      "type": "text"
+    },
+    "DOCUMENTOS": {
+      "type": "text"
+    },
+    "CV": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CANDIDATURA": {
+      "type": "string"
+    }
+  }
+}
